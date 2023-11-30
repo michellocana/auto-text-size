@@ -208,6 +208,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@michellocana/auto-text-size@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@michellocana/auto-text-size@workspace:."
+  dependencies:
+    "@types/node": 18.0.3
+    "@types/react": 18.0.15
+    react: latest
+    tsc-watch: ^5.0.3
+    tsup: ^7.2.0
+    typescript: 4.7.4
+    yalc: ^1.0.0-pre.53
+  peerDependencies:
+    react: "*"
+  languageName: unknown
+  linkType: soft
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -385,22 +401,6 @@ __metadata:
   checksum: 5bee12395cba82da674931df6d0fea23c4aa4660cb3b338ced9f828782a65caa232573e6bf3968f23e0c5eb301764a382cef2f128b170a9dc59de0e36c39f98d
   languageName: node
   linkType: hard
-
-"auto-text-size@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "auto-text-size@workspace:."
-  dependencies:
-    "@types/node": 18.0.3
-    "@types/react": 18.0.15
-    react: latest
-    tsc-watch: ^5.0.3
-    tsup: ^7.2.0
-    typescript: 4.7.4
-    yalc: ^1.0.0-pre.53
-  peerDependencies:
-    react: "*"
-  languageName: unknown
-  linkType: soft
 
 "balanced-match@npm:^1.0.0":
   version: 1.0.2
